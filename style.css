@@ -1,0 +1,121 @@
+.My-part{
+    display: flex;
+   
+    
+}
+
+.sub-form,.graphics{
+    margin:20px;
+    height: 500px;
+    background-color: rgba(84, 83, 84, 0.115);
+    padding: 20px;
+    border-radius: 10px;  
+    border: 1px solid rgb(42, 28, 112);  
+}
+.sub-form{
+    width: 60%;
+    
+}
+.graphics{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-form,.graphics h1,h2{
+
+    color: rgb(42, 28, 112);
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    padding: 20px;
+   
+    display: flex;
+    justify-content: space-between
+    
+}
+footer{
+    background-color:rgb(42, 28, 112);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+input[type="text"],input[type="email"],input[type="password"]
+{
+    width:280px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    border-radius: 8px;
+    
+}
+label{
+    width: 150px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(42, 28, 112);
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"],input[type="reset"]
+{
+   
+    margin-top: 100px;
+}
+
+input[type="submit"]{
+    background-color: rgb(99, 19, 108);
+    color: white;
+    font-size: 16px;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+input[type="reset"]{
+    background-color: rgb(208, 206, 212);
+    color: rgb(42, 28, 112);
+    font-size: 16px;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+}
+#course-name {
+    margin-left: 125px;
+    border: 1px solid #ccc;
+    
+}
+input[type="checkbox"],input[type="radio"],select,textarea,option{
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    color: rgb(127, 125, 134);
+}
+textarea{
+    padding: 8px;
+    font-size: 14px;
+    resize: none;
+}
+
+img{
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    padding-top: 20px;
+    width: 300px;
+
+}
