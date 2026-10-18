@@ -6,37 +6,42 @@
 
 .sub-form,.graphics{
     margin:20px;
-    height: 500px;
-    background-color: rgba(84, 83, 84, 0.115);
+    height: 550px;
+    background-color: #f4f8fc;
     padding: 20px;
     border-radius: 10px;  
-    border: 1px solid rgb(42, 28, 112);  
+    border: 1px solid #b8d8ed;  
 }
 .sub-form{
-    width: 60%;
+    width: 70%;
     
 }
+
 .graphics{
-    width: 30%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
-.sub-form,.graphics h1,h2{
+.sub-form,.graphics h1,h2,h3{
 
-    color: rgb(42, 28, 112);
+    color: #123b65;
     font-family: Arial, Helvetica, sans-serif;
 }
 form{
     padding: 20px;
-   
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
     
 }
+.left-side{
+    width: 55%;
+}
+
 footer{
-    background-color:rgb(42, 28, 112);
+    background-color: #123b65;
     height: 45px;
     display: flex;
     justify-content: center;
@@ -54,7 +59,7 @@ input[type="text"],input[type="email"],input[type="password"]
     width:280px;
     padding: 20px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #cbddea;
     font-size: 20px;
     border-radius: 8px;
     
@@ -64,17 +69,17 @@ label{
     display: inline-block;
     font-size: 20px;
     font-weight: bold;
-    color: rgb(42, 28, 112);
+    color: #123b65;
     font-family: Arial, Helvetica, sans-serif;
 }
 input[type="submit"],input[type="reset"]
 {
    
-    margin-top: 100px;
+    margin-top: 165px;
 }
 
 input[type="submit"]{
-    background-color: rgb(99, 19, 108);
+    background-color: #7040d8;
     color: white;
     font-size: 16px;
     padding: 20px 70px;
@@ -84,32 +89,32 @@ input[type="submit"]{
     margin-right: 10px;
 }
 input[type="reset"]{
-    background-color: rgb(208, 206, 212);
-    color: rgb(42, 28, 112);
+    background-color: #e6edf5;
+    color: #123b65;
     font-size: 16px;
-    padding: 20px 70px;
+    padding: 20px 80px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
 
 
 }
-#course-name {
-    margin-left: 125px;
-    border: 1px solid #ccc;
-    
-}
+
 input[type="checkbox"],input[type="radio"],select,textarea,option{
-    padding: 8px;
-    margin-bottom: 10px;
-    font-size: 15px;
-    border: 1px solid #ccc;
-    color: rgb(127, 125, 134);
+    padding: 15px 30px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    border: 1px solid #cbddea;
+    border-radius: 8px;
+    color: #526b83;
 }
 textarea{
-    padding: 8px;
-    font-size: 14px;
+    padding: 20px 20px 0px 20px;
     resize: none;
+    vertical-align: top;
+}
+#course2,#course3{
+    margin-left: 160px;
 }
 
 img{
